@@ -296,36 +296,31 @@ h2 {
   font-weight: 600;
 }
 
-.how-to-use-wrapper {
+.how-to-play-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: rgba(0, 0, 0, 0.5);
-  cursor: pointer;
   z-index: 10;
+  cursor: pointer;
 }
 
-.how-to-use {
+.how-to-play {
   background-color: white;
-  padding: 5rem;
-  border-radius: 5px;
+  padding: 3rem;
+  z-index: 15;
   cursor: pointer;
-  z-index: 10;
 }
 
-.how-to-use h2 {
-  font-size: 3rem;
-}
-
-.how-to-use ol {
+.how-to-play li {
+  list-style: none;
   font-size: 2rem;
-  text-align: center;
-  list-style-type: none;
 }
 
 .hidden {
